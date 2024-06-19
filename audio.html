@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Transcription App</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="heading-1">
+            <h1>Transcription App</h1>
+        </div>
+        <section>
+            <div class="field">
+                <label for="recording-name" class="label">
+                    Recording Name
+                </label>
+                <div class="control">
+                    <input type="text" class="input" id="recording-name">
+                </div>
+            </div>
+            <div id="buttons-container">
+                <div>
+                    <i class="fa-solid fa-circle"></i>
+                    <p>Record</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-stop"></i>
+                    <p>Stop</p>
+                </div>
+            </div>
+            <div>
+                <h2 id="heading-2">Recordings</h2>
+                <div id="recordings-area"></div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="audio.js" type="module"></script>
+</body>
+</html>
